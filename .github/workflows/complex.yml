@@ -19,7 +19,7 @@ jobs:
                 run: date
     job4:
         needs: [job1,job2,job3]
-        runs-on: linux-latest
+        runs-on: ubuntu-22.04
         steps:
             -   name: linux
                 run: date
