@@ -19,7 +19,7 @@ jobs:
                 run: date
     job4:
         needs: [job1,job2,job3]
-        runs-on: Windows Server 2019
+        runs-on: linux-latest
         steps:
-            -   name: Windows Server
+            -   name: linux
                 run: date
